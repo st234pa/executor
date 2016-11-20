@@ -1,5 +1,5 @@
-executor: executor.c
-	gcc  executor.c -o executor
+executor: exec.c
+	gcc  exec.c -o executor
 run: executor
 	./executor
 clean:
