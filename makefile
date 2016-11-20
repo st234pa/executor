@@ -1,6 +1,6 @@
 executor:executor.c
-	gcc -o executor executor.c
-run:signal
+	gcc  executor.c -o executor
+run:
 	./executor
 clean:
 	rm *~
