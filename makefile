@@ -1,7 +1,6 @@
-executor:executor.c
+executor: executor.c
 	gcc  executor.c -o executor
-run:
+run: executor
 	./executor
 clean:
 	rm *~
-	rm executor
